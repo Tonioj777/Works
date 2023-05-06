@@ -3044,7 +3044,7 @@ option {
     text-align: center;
   }
   .application {
-    padding: 120px 0px 50px;
+    padding: 0px 0px 50px;
     background: url(../Image/img/backgroundapp.jpg) 50% 50%/cover no-repeat;
   }
   .application__link {
