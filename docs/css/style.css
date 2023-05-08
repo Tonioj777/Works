@@ -319,7 +319,7 @@ option {
 }
 
 .header__slider .slick-next {
-  background: url("../Image/Svg/arrow-right.svg") 0 0/100% no-repeat;
+  background: url("./Image/Svg/arrow-right.svg") 0 0/100% no-repeat;
   right: -1%;
 }
 
