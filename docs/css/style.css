@@ -314,12 +314,12 @@ option {
 }
 
 .header__slider .slick-prev {
-  background: url("../Image/Svg/arrow-left.svg") 0 0/100% no-repeat;
+  background: url("../Image/Svg/close.svg") 0 0/100% no-repeat;
   left: -6%;
 }
 
 .header__slider .slick-next {
-  background: url("./Image/Svg/arrow-right.svg") 0 0/100% no-repeat;
+  background: url("../Image/Svg/arrow-right.svg") 0 0/100% no-repeat;
   right: -1%;
 }
 
