@@ -1115,6 +1115,32 @@
             </section>
 
         </main>
+        <form action="sendmail.php" class="footer-form" method="POST" autocomplete="off">
+        <p class="footer-form__field">
+          <label class="footer-form__label"  for="name">Имя</label>
+          <input type="text" class="footer-form__input" id="name" name="name" required >
+        </p>
+        <p class="footer-form__field">
+          <label class="footer-form__label" for="phone">Телефон</label>
+          <input type="tel" class="footer-form__input" id="phone" name="phone" required>
+        </p>
+  
+        <p class="footer-form__field">
+          <label class="footer-form__label" for="email">Почта</label>
+          <input type="email" class="footer-form__input" id="email" name="email">
+        </p>
+  
+        <p class="footer-form__field">
+          <label class="footer-form__label" for="description">Описание</label>
+          <input type="text" class="footer-form__input" id="description" name="description">
+        </p>
+  
+        <p class="footer-form__field">
+          <label class="footer-form__label checkbox-label" for="agreement">Согласие на обработку ПД</label>
+          <input class="footer-form__checkbox" type="checkbox" name="agreement" id="agreement">
+        </p>
+        <button type="submit" class="footer-form__button">Отправить</button>
+      </form>
         <footer class="footer">
             <div class="footer__body">
                 <div class="container">
